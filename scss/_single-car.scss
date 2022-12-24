@@ -1,0 +1,38 @@
+.car-item {
+	&__descriptions {
+		width: 50%;
+	}
+
+	&__title {
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	&__content {
+		font-size: 16px;
+		letter-spacing: 1;
+		margin-bottom: 10px;
+	}
+
+	&__img {
+		width: 200px;
+		height: 200px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: aquamarine;
+	}
+
+	&__color {
+		width: 15px;
+		height: 15px;
+	}
+
+	&__property {
+		margin: 5px 0;
+		display: flex;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+}

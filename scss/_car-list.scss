@@ -1,0 +1,14 @@
+.car {
+
+    &__item {
+        width: 100px;
+        background-color: rgb(184, 212, 178);
+        margin: 4px 0;
+    }
+
+    &__title {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

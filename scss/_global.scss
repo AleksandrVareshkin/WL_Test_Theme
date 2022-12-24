@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 30px;
+    width: 100%;
+}
